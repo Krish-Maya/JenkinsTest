@@ -50,6 +50,7 @@ public class DeDuplicate extends CommonFunctions {
 		Thread.sleep(10000);
 		Rename_Page_Objects.apply.click();
 		Thread.sleep(3000);
+		//sleep 30 sec
 		 TakesScreenshot scrShot =((TakesScreenshot)driver);
           File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
           File DestFile=new File("/home/local/ZOHOCORP/maya-con747/Downloads/autotest1");
