@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="DataPrep.DataPrep.AppTest"/>
+      
       <class name="commonFunctions.CommonFunctions"/>
       <class name="testCases.Login"/>
       <class name="testCases.Import_File"/> 
-    <!--  <class name="testCases.Rename"/> -->
+   
      <class name="testCases.DeDuplicate"/> 
     </classes>
   </test> <!-- Test -->
