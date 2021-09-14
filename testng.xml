@@ -7,7 +7,7 @@
       <class name="commonFunctions.CommonFunctions"/>
       <class name="testCases.Login"/>
       <class name="testCases.Import_File"/> 
-    <!--  <class name="testCases.Rename"/> -->
+    <!--  <class name="testCases.Rename"/> yes -->
      <class name="testCases.DeDuplicate"/> 
     </classes>
   </test> <!-- Test -->
