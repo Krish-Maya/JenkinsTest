@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="DataPrep.DataPrep.AppTest"/>
+      <class name="commonFunctions.CommonFunctions"/>
+      <class name="testCases.Login"/>
+      <class name="testCases.Import_File"/> 
+    <!--  <class name="testCases.Rename"/> -->
+     <class name="testCases.DeDuplicate"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
